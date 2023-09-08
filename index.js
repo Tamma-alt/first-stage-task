@@ -9,7 +9,7 @@ function getCurrentDayOfWeek() {
 
 const dayOfTheWeekElement = document.getElementById('dayOfWeek');
 const currentDayOfWeek = getCurrentDayOfWeek();
-dayOfTheWeekElement.textContent = `Today is ${currentDayOfWeek}`
+dayOfTheWeekElement.textContent = `${currentDayOfWeek}.`
 
 // function to get curent UTC Time in milliseconds
 function getCurrentUTCTime () {
