@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Profile Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <card>
-        <div class="container">
-
-            <div class="profile">
-                <h1 class="section-header" data-testid ="slackUserName">Itemearau Faith ThankGod</h1>
-                <!-- input slack profile picture -->
-                <img src="images/slack-img.jpeg" alt="Itemearau Faith ThankGod"  data-testid="slackDisplayImage" class="profile-img">
-                
-                
-            </div>
-
-            <div>
-                <h5>Today is <p data-testid="currentDayOfTheWeek" id="dayOfWeek"></p></h5>
-                
-                <div>
-                    <h5>UTC Time in milliseconds:</h5>
-                    <p data-testid="currentUTCTime" id="utcTime"></p>
-                </div>
-                <h5 data-testid="myTrack">Track: Frontend</h5>
-                <a href="https://github.com/Tamma-alt/first-stage-task" data-testid="githubURL">Github Repo</a>
-            </div>
-
-
+      <div class="container">
+        <div class="profile">
+          <h1 class="section-header" data-testid="slackUserName">
+            Itemearau Faith ThankGod
+          </h1>
+          <!-- input slack profile picture -->
+          <img
+            src="images/slack-img.jpeg"
+            alt="Itemearau Faith ThankGod"
+            data-testid="slackDisplayImage"
+            class="profile-img"
+          />
         </div>
+
+        <div>
+          <h5>
+            Today is
+            <p data-testid="currentDayOfTheWeek" id="dayOfWeek"></p>
+          </h5>
+
+          <div>
+            <h5>UTC Time in milliseconds:</h5>
+            <p data-testid="currentUTCTime" id="utcTime"></p>
+          </div>
+          <h5 data-testid="myTrack">Track: Frontend</h5>
+          <a
+            href="https://github.com/Tamma-alt/first-stage-task"
+            data-testid="githubURL"
+            >Github Repo</a
+          >
+        </div>
+      </div>
     </card>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
